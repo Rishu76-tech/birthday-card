@@ -1,53 +1,48 @@
 body {
     margin: 0;
-    height: 100vh;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8a5c2, #f5cd79);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    height: 100vh;
 }
 
 .card {
     background: white;
-    width: 90%;
-    max-width: 350px;
-    padding: 25px;
+    padding: 40px;
+    width: 85%;
+    max-width: 600px;
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 h1 {
-    color: #ff5e78;
+    color: #ff4d6d;
 }
 
-.name {
-    font-size: 20px;
-    margin-bottom: 15px;
+h2 {
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
 }
 
 button {
-    background: #ff5e78;
-    color: white;
+    padding: 15px 30px;
     border: none;
-    padding: 12px 20px;
-    font-size: 16px;
-    border-radius: 15px;
+    border-radius: 30px;
+    background-color: #ff4d6d;
+    color: white;
+    font-size: 18px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
-    background: #ff3b5c;
-}
-
-#message {
-    margin-top: 20px;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #444;
-}
-
-.hidden {
-    display: none;
+    background-color: #e8415a;
 }
