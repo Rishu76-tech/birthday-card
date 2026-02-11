@@ -1,3 +1,3 @@
-function showMessage() {
-    document.getElementById("message").classList.remove("hidden");
+function showSurprise() {
+    alert("You are amazing 💖 Stay happy always 🎉");
 }
